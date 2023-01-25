@@ -6,11 +6,11 @@ module.exports = {
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [
-    // {
-    //   resolve: `gatsby-source-wordpress`,
-    //   options: {
-    //     url: `http://stageshop.local/graphql`,
-    //   },
-    // },
+    {
+      resolve: `gatsby-source-wordpress`,
+      options: {
+        url: `http://stageshop.local/graphql`,
+      },
+    },
   ],
 }
