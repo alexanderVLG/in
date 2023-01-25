@@ -9,7 +9,7 @@ module.exports = {
     {
       resolve: `gatsby-source-wordpress`,
       options: {
-        url: `http://stageshop/graphql`,
+        url: `https://inmaster97304.gatsbyjs.io/graphql`,
       },
     },
   ],
